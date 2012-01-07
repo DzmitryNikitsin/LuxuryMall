@@ -1,0 +1,28 @@
+#top
+  %a{:href => home_index_path}
+    =image_tag "logo.png", :alt => 'hello', :style => "padding-left:50px;"
+  #menu
+    %ul
+      %li
+        %a{:href => ''}
+          Collection 2011
+          %ul.submenu
+            %li
+              %a{:href => ''} Summer
+            %li
+              %a{:href => ''} Autumn
+            %li
+              %a{:href => ''} Winter
+            %li
+              %a{:href => ''} Spring
+  .social
+    %ul
+      %li
+        %a{:href => 'htto://www.facebook.com/', :target => '_blank'}
+        =image_tag "facebook.png", :alt => 'Find us on facebook'
+      %li
+        %a{:href => 'htto://www.twitter.com/', :target => '_blank'}
+        =image_tag "twitter.png", :alt => 'Find us on twitter'
+      %li
+        %a{:href => 'htto://www.youtube.com/', :target => '_blank'}
+        =image_tag "youtube.png", :alt => 'Find us on YouTube'
